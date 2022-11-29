@@ -1,6 +1,9 @@
 import fastify from 'fastify';
 import fstatic from '@fastify/static';
 
+import * as dotenv from 'dotenv';
+dotenv.config();
+
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
